@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
@@ -10,6 +11,8 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/../../../flutter/.pub-cache/hosted/pub.dartlang.org/cloud_firestore-2.4.0/android" />
+            <option value="$PROJECT_DIR$/../../../flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core-1.4.0/android" />
             <option value="$PROJECT_DIR$/../../../flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences-2.0.6/android" />
           </set>
         </option>

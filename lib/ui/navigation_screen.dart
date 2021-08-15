@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:nepalstock/ui/widgets/bottom_nav_bar.dart';
 
 class NavigationPage extends StatefulWidget {
   @override
@@ -9,7 +10,14 @@ class _NavigationPageState extends State<NavigationPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(),
+      body: Stack(
+        children: [
+          Align(
+            alignment: Alignment.bottomCenter,
+            child: BottomNavbar(),
+          ),
+        ],
+      ),
     );
   }
 }

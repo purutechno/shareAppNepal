@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "952107204212",
+    "project_id": "nepalstockinfo-5fd97",
+    "storage_bucket": "nepalstockinfo-5fd97.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:952107204212:android:55efe80445230d43a1db21",
+        "android_client_info": {
+          "package_name": "com.example.nepalstock"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "952107204212-s2onim6j9sl0qjc6jas7orcigr0ed6fl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOLmY6p9Gboz4MhQGF7mqTVGNK8Onn8pw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "952107204212-s2onim6j9sl0qjc6jas7orcigr0ed6fl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
