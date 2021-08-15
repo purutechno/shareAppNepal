@@ -1,4 +1,5 @@
 class Article {
+  String? title;
   List<String>? imageUrls;
   List<String>? categories;
   String? ltp;
@@ -7,7 +8,15 @@ class Article {
   String? stepLoss;
   String? conditions;
 
-  Article({this.imageUrls, this.categories, this.ltp});
+  Article(
+      {this.title,
+      this.imageUrls,
+      this.categories,
+      this.ltp,
+      this.entry,
+      this.firstTarget,
+      this.stepLoss,
+      this.conditions});
 
   Article.fromJson(Map<String, dynamic> data) {
     imageUrls?.clear();
@@ -22,6 +31,10 @@ class Article {
       for (int i = 0; i < List.from(data['categories']).length; i++) {
         categories?.add(data['categories'][i]);
       }
+    }
+
+    if (data.containsKey('title') && data['title'] != null) {
+      title = data['title'];
     }
 
     if (data.containsKey('ltp') && data['ltp'] != null) {
@@ -51,6 +64,7 @@ class Article {
     data['firstTarget'] = firstTarget;
     data['stepLoss'] = stepLoss;
     data['conditions'] = conditions;
+    data['title'] = title;
     return data;
   }
 }
