@@ -3,7 +3,8 @@ import 'package:flutter/services.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:nepalstock/app_language/app_localizations.dart';
-import 'package:nepalstock/constants.dart';
+import 'package:nepalstock/utils/app_colors.dart';
+import 'package:nepalstock/utils/constants.dart';
 import 'package:nepalstock/functions/injection.dart';
 import 'package:nepalstock/providers/app_language.dart';
 import 'package:nepalstock/providers/articles_provider.dart';
@@ -26,6 +27,7 @@ class MyApp extends StatelessWidget {
     ]);
     return MultiProvider(
         providers: [
+          ChangeNotifierProvider.value(value: AppLanguage()),
           ChangeNotifierProvider.value(value: ArticlesProvider()),
           ChangeNotifierProvider.value(value: PortfolioProvider()),
         ],
@@ -35,9 +37,9 @@ class MyApp extends StatelessWidget {
               debugShowCheckedModeBanner: false,
               theme: ThemeData(
                 brightness: Brightness.light,
-                primaryColor: Colors.deepPurple[800],
-                scaffoldBackgroundColor: Colors.blue,
-                accentColor: Colors.deepPurple[600],
+                primaryColor: AppColors.deepPurple,
+                scaffoldBackgroundColor: AppColors.blueColor,
+                accentColor: AppColors.deepPurple,
               ),
               localizationsDelegates: [
                 AppLocalizations.delegate,

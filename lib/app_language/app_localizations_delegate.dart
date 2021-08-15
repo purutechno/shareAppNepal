@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:nepalstock/app_language/app_localizations.dart';
-import 'package:nepalstock/constants.dart';
+import 'package:nepalstock/utils/constants.dart';
 
 
 class AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {
