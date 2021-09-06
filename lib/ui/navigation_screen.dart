@@ -11,7 +11,7 @@ class NavigationPage extends StatelessWidget {
   List<Widget> _children = [
     ArticlesScreen(),
     Container(
-      color: AppColors.white,
+      color: AppColors.black,
     )
   ];
 

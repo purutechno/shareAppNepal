@@ -15,6 +15,7 @@ class NavigationStateProvider extends ChangeNotifier {
   updateNavState(int index) {
     _navWidgetController.sink.add(Response.loading(""));
     this.index = index;
+/*    AudioCache().play('audio/tap_sound.wav');*/
     _navWidgetController.sink.add(Response.completed(index));
   }
 
