@@ -111,5 +111,5 @@
     <string name="fui_welcome_back_idp_prompt">您已经使用了 %1$s。请使用 %2$s 帐号登录以继续操作。</string>
     <string name="fui_welcome_back_password_prompt_body">您已经使用 %1$s 登录了，请输入该帐号的密码。</string>
     <string msgid="146198913615257606" name="search_menu_title">"搜索"</string>
-    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>

@@ -92,5 +92,5 @@
     <string name="fui_welcome_back_idp_prompt">Você já usou o e-mail %1$s. Faça login com o %2$s para continuar.</string>
     <string name="fui_welcome_back_password_prompt_body">Você já usou o e-mail %1$s para fazer login. Insira a senha dessa conta.</string>
     <string msgid="146198913615257606" name="search_menu_title">"Pesquisar"</string>
-    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>

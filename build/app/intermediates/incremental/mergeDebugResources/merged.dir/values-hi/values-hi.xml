@@ -111,5 +111,5 @@
     <string name="fui_welcome_back_idp_prompt">आपने पहले ही %1$s का उपयोग कर लिया है. जारी रखने के लिए %2$s से प्रवेश करें.</string>
     <string name="fui_welcome_back_password_prompt_body">आपने पहले ही प्रवेश करने के लिए %1$s का उपयोग कर लिया है. उस खाते के लिए अपना पासवर्ड डालें.</string>
     <string msgid="146198913615257606" name="search_menu_title">"सर्च"</string>
-    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>

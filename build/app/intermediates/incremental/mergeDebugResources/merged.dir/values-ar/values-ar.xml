@@ -111,5 +111,5 @@
     <string name="fui_welcome_back_idp_prompt">لقد سبق أن استخدمت %1$s. سجّل الدخول باستخدام %2$s للمتابعة.</string>
     <string name="fui_welcome_back_password_prompt_body">لقد سبق أن استخدمت %1$s لتسجيل الدخول. يُرجى إدخال كلمة المرور لهذا الحساب.</string>
     <string msgid="146198913615257606" name="search_menu_title">"البحث"</string>
-    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>

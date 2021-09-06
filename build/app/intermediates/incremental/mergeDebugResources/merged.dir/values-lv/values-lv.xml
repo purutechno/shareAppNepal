@@ -111,5 +111,5 @@
     <string name="fui_welcome_back_idp_prompt">Esat jau izmantojis e-pasta adresi %1$s. Pierakstieties pakalpojumā %2$s, lai turpinātu.</string>
     <string name="fui_welcome_back_password_prompt_body">Esat jau izmantojis e-pasta adresi %1$s, lai pierakstītos. Ievadiet šī konta paroli.</string>
     <string msgid="146198913615257606" name="search_menu_title">"Meklēt"</string>
-    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>

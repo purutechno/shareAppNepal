@@ -111,5 +111,5 @@
     <string name="fui_welcome_back_idp_prompt">Već ste upotrijebili e-adresu %1$s. Za nastavak se prijavite putem usluge %2$s.</string>
     <string name="fui_welcome_back_password_prompt_body">Za prijavu ste već upotrijebili e-adresu %1$s. Unesite zaporku za taj račun.</string>
     <string msgid="146198913615257606" name="search_menu_title">"Pretraživanje"</string>
-    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>

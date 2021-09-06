@@ -4,7 +4,7 @@
             "outputFile": "/Users/purushottampokharel/Documents/GitHub/shareAppNepal/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "/Users/purushottampokharel/.gradle/caches/transforms-3/c9ba339beaa4a2a8d1ba3c9c2511ad93/transformed/appcompat-1.0.0/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "source": "/Users/purushottampokharel/.gradle/caches/transforms-3/5405033d71bdd8adbd63b2e27389a12c/transformed/appcompat-1.0.0/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/purushottampokharel/.gradle/caches/transforms-3/f8da5299a639f473cfd9a33bed5f23d6/transformed/material-1.0.0/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "source": "/Users/purushottampokharel/.gradle/caches/transforms-3/3d356ca8e1eb426d87983348be5c18f4/transformed/material-1.0.0/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,10,11,12",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",

@@ -111,5 +111,5 @@
     <string name="fui_welcome_back_idp_prompt">Anda telah menggunakan %1$s. Login dengan %2$s untuk melanjutkan.</string>
     <string name="fui_welcome_back_password_prompt_body">Anda telah menggunakan %1$s untuk login. Masukkan sandi untuk akun tersebut.</string>
     <string msgid="146198913615257606" name="search_menu_title">"Telusuri"</string>
-    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>

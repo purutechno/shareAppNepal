@@ -4,24 +4,24 @@
             "outputFile": "/Users/purushottampokharel/Documents/GitHub/shareAppNepal/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rXC/values-en-rXC.xml",
             "map": [
                 {
-                    "source": "/Users/purushottampokharel/.gradle/caches/transforms-3/81c97620bcc3d9faa4ff050d77ada04c/transformed/core-1.1.0/res/values-en-rXC/values-en-rXC.xml",
+                    "source": "/Users/purushottampokharel/.gradle/caches/transforms-3/df4c6152293cc30f91be849fc8cfcfa5/transformed/core-1.6.0/res/values-en-rXC/values-en-rXC.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "55",
-                        "endColumns": "202",
-                        "endOffsets": "253"
+                        "endColumns": "203",
+                        "endOffsets": "254"
                     },
                     "to": {
                         "startLines": "30",
                         "startColumns": "4",
                         "startOffsets": "5682",
-                        "endColumns": "202",
-                        "endOffsets": "5880"
+                        "endColumns": "203",
+                        "endOffsets": "5881"
                     }
                 },
                 {
-                    "source": "/Users/purushottampokharel/.gradle/caches/transforms-3/c9ba339beaa4a2a8d1ba3c9c2511ad93/transformed/appcompat-1.0.0/res/values-en-rXC/values-en-rXC.xml",
+                    "source": "/Users/purushottampokharel/.gradle/caches/transforms-3/5405033d71bdd8adbd63b2e27389a12c/transformed/appcompat-1.0.0/res/values-en-rXC/values-en-rXC.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

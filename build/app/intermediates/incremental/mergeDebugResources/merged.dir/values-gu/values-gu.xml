@@ -111,5 +111,5 @@
     <string name="fui_welcome_back_idp_prompt">તમે પહેલાંથી જ %1$sનો ઉપયોગ કરી લીધો છે. આગળ વધવા માટે %2$s વડે સાઇન ઇન કરો.</string>
     <string name="fui_welcome_back_password_prompt_body">તમે સાઇન ઇન કરવા માટે પહેલેથી %1$sનો ઉપયોગ કરી લીધો છે. તે એકાઉન્ટ માટેનો તમારો પાસવર્ડ દાખલ કરો.</string>
     <string msgid="146198913615257606" name="search_menu_title">"શોધો"</string>
-    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>

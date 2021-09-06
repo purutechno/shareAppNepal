@@ -1,3 +1,4 @@
+import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:nepalstock/utils/response.dart';
 import 'package:rxdart/rxdart.dart';
@@ -15,8 +16,12 @@ class NavigationStateProvider extends ChangeNotifier {
   updateNavState(int index) {
     _navWidgetController.sink.add(Response.loading(""));
     this.index = index;
-/*    AudioCache().play('audio/tap_sound.wav');*/
+    _playNavSound();
     _navWidgetController.sink.add(Response.completed(index));
+  }
+
+  _playNavSound() async {
+    await AudioCache().play('audio/tap_sound.wav');
   }
 
   @override

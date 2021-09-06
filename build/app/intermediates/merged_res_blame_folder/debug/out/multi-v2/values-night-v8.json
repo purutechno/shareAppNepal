@@ -4,6 +4,23 @@
             "outputFile": "/Users/purushottampokharel/Documents/GitHub/shareAppNepal/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
             "map": [
                 {
+                    "source": "/Users/purushottampokharel/.gradle/caches/transforms-3/5405033d71bdd8adbd63b2e27389a12c/transformed/appcompat-1.0.0/res/values-night-v8/values-night-v8.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,209,293,389,491,593",
+                        "endColumns": "69,83,83,95,101,101,93",
+                        "endOffsets": "120,204,288,384,486,588,682"
+                    },
+                    "to": {
+                        "startLines": "10,11,12,13,14,15,16",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "521,591,675,759,855,957,1059",
+                        "endColumns": "69,83,83,95,101,101,93",
+                        "endOffsets": "586,670,754,850,952,1054,1148"
+                    }
+                },
+                {
                     "source": "/Users/purushottampokharel/Documents/GitHub/shareAppNepal/android/app/src/main/res/values-night/styles.xml",
                     "from": {
                         "startLines": "3,14",
@@ -20,23 +37,6 @@
                         "endLines": "6,9",
                         "endColumns": "12,12",
                         "endOffsets": "347,516"
-                    }
-                },
-                {
-                    "source": "/Users/purushottampokharel/.gradle/caches/transforms-3/c9ba339beaa4a2a8d1ba3c9c2511ad93/transformed/appcompat-1.0.0/res/values-night-v8/values-night-v8.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "55,125,209,293,389,491,593",
-                        "endColumns": "69,83,83,95,101,101,93",
-                        "endOffsets": "120,204,288,384,486,588,682"
-                    },
-                    "to": {
-                        "startLines": "10,11,12,13,14,15,16",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "521,591,675,759,855,957,1059",
-                        "endColumns": "69,83,83,95,101,101,93",
-                        "endOffsets": "586,670,754,850,952,1054,1148"
                     }
                 }
             ]

@@ -111,5 +111,5 @@
     <string name="fui_welcome_back_idp_prompt">Hai già utilizzato %1$s. Accedi con %2$s per continuare.</string>
     <string name="fui_welcome_back_password_prompt_body">Hai già utilizzato %1$s per accedere. Inserisci la password di questo account.</string>
     <string msgid="146198913615257606" name="search_menu_title">"Ricerca"</string>
-    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>

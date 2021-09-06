@@ -111,5 +111,5 @@
     <string name="fui_welcome_back_idp_prompt">Ați folosit deja %1$s. Pentru a continua, conectați-vă cu %2$s.</string>
     <string name="fui_welcome_back_password_prompt_body">Ați folosit deja %1$s pentru a vă conecta. Introduceți parola acestui cont.</string>
     <string msgid="146198913615257606" name="search_menu_title">"Căutați"</string>
-    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>

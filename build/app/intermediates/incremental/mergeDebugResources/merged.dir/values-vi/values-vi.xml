@@ -111,5 +111,5 @@
     <string name="fui_welcome_back_idp_prompt">Bạn đã sử dụng %1$s. Đăng nhập bằng %2$s để tiếp tục.</string>
     <string name="fui_welcome_back_password_prompt_body">Bạn đã sử dụng %1$s để đăng nhập. Hãy nhập mật khẩu của bạn cho tài khoản đó.</string>
     <string msgid="146198913615257606" name="search_menu_title">"Tìm kiếm"</string>
-    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>

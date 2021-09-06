@@ -111,5 +111,5 @@
     <string name="fui_welcome_back_idp_prompt">Adres %1$s został już przez Ciebie użyty. Aby kontynuować, zaloguj się przez: %2$s.</string>
     <string name="fui_welcome_back_password_prompt_body">Adres %1$s został już przez Ciebie użyty do logowania. Wpisz hasło tego konta.</string>
     <string msgid="146198913615257606" name="search_menu_title">"Szukaj"</string>
-    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>

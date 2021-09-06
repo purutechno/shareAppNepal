@@ -8,6 +8,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "audioplayers",
+      "rootUri": "file:///Users/purushottampokharel/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/audioplayers-0.20.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "boolean_selector",
       "rootUri": "file:///Users/purushottampokharel/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/boolean_selector-2.1.0",
       "packageUri": "lib/",
@@ -52,6 +58,12 @@
     {
       "name": "collection",
       "rootUri": "file:///Users/purushottampokharel/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/collection-1.15.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "crypto",
+      "rootUri": "file:///Users/purushottampokharel/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/crypto-3.0.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -134,6 +146,18 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "http",
+      "rootUri": "file:///Users/purushottampokharel/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/http-0.13.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "http_parser",
+      "rootUri": "file:///Users/purushottampokharel/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/http_parser-4.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "intl",
       "rootUri": "file:///Users/purushottampokharel/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/intl-0.17.0",
       "packageUri": "lib/",
@@ -170,8 +194,20 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "path_provider",
+      "rootUri": "file:///Users/purushottampokharel/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider-2.0.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "path_provider_linux",
       "rootUri": "file:///Users/purushottampokharel/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_linux-2.0.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "path_provider_macos",
+      "rootUri": "file:///Users/purushottampokharel/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_macos-2.0.2",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -184,6 +220,12 @@
     {
       "name": "path_provider_windows",
       "rootUri": "file:///Users/purushottampokharel/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_windows-2.0.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "pedantic",
+      "rootUri": "file:///Users/purushottampokharel/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/pedantic-1.11.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -302,6 +344,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "uuid",
+      "rootUri": "file:///Users/purushottampokharel/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/uuid-3.0.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "vector_math",
       "rootUri": "file:///Users/purushottampokharel/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/vector_math-2.1.0",
       "packageUri": "lib/",
@@ -326,7 +374,7 @@
       "languageVersion": "2.12"
     }
   ],
-  "generated": "2021-09-06T17:11:42.389048Z",
+  "generated": "2021-09-06T17:20:26.131385Z",
   "generator": "pub",
   "generatorVersion": "2.13.4"
 }

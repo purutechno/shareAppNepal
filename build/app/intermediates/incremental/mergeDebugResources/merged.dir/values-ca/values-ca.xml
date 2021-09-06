@@ -111,5 +111,5 @@
     <string name="fui_welcome_back_idp_prompt">Ja has utilitzat l\'adreça electrònica %1$s. Inicia la sessió amb %2$s per continuar.</string>
     <string name="fui_welcome_back_password_prompt_body">Ja has utilitzat l\'adreça electrònica %1$s per iniciar la sessió. Introdueix la contrasenya d\'aquest compte.</string>
     <string msgid="146198913615257606" name="search_menu_title">"Cerca"</string>
-    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>
