@@ -3,6 +3,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:nepalstock/app_language/app_localizations.dart';
+import 'package:nepalstock/providers/navigation_state_provider.dart';
 import 'package:nepalstock/utils/app_colors.dart';
 import 'package:nepalstock/utils/constants.dart';
 import 'package:nepalstock/functions/injection.dart';
@@ -30,6 +31,7 @@ class MyApp extends StatelessWidget {
           ChangeNotifierProvider.value(value: AppLanguage()),
           ChangeNotifierProvider.value(value: ArticlesProvider()),
           ChangeNotifierProvider.value(value: PortfolioProvider()),
+          ChangeNotifierProvider.value(value: NavigationStateProvider()),
         ],
         child: Consumer<AppLanguage>(builder: (context, model, child) {
           return MaterialApp(
