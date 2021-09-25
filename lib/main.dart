@@ -28,10 +28,10 @@ class MyApp extends StatelessWidget {
     ]);
     return MultiProvider(
         providers: [
-          ChangeNotifierProvider.value(value: AppLanguage()),
-          ChangeNotifierProvider.value(value: ArticlesProvider()),
-          ChangeNotifierProvider.value(value: PortfolioProvider()),
-          ChangeNotifierProvider.value(value: NavigationStateProvider()),
+          ChangeNotifierProvider(create: (_) => AppLanguage()),
+          ChangeNotifierProvider(create: (_) => ArticlesProvider()),
+          ChangeNotifierProvider(create: (_) => PortfolioProvider()),
+          ChangeNotifierProvider(create: (_) => NavigationStateProvider())
         ],
         child: Consumer<AppLanguage>(builder: (context, model, child) {
           return MaterialApp(
