@@ -54,7 +54,7 @@ class AppColors {
   static const lightgreenText = Color(0xFF01DFB7);
 
   static const primaryGreen = Color(0xFF14D69C);
-  static const petlyBlueColor = Color.fromRGBO(33, 150, 243, 1);
+  static const simpleBlueColor = Color.fromRGBO(33, 150, 243, 1);
   static const primaryTurcoaz = Color(0xFF07D4F0);
   static const unselectedblueColor = Color.fromRGBO(33, 150, 243, 0.3);
   static const primaryPurple = Color(0xFF982CED);

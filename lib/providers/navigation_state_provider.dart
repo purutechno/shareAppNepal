@@ -4,7 +4,8 @@ import 'package:nepalstock/utils/response.dart';
 import 'package:rxdart/rxdart.dart';
 
 class NavigationStateProvider extends ChangeNotifier {
-  int index = 0;
+  int bottomNavIndex = 0;
+  int topNavIndex = 0;
   late BehaviorSubject<Response> _navWidgetController;
 
   NavigationStateProvider() {
@@ -13,10 +14,21 @@ class NavigationStateProvider extends ChangeNotifier {
 
   Stream<Response> get navWidgetStream => _navWidgetController.stream;
 
-  updateNavState(int index) {
+  updateBottomNavState(int index) {
     _navWidgetController.sink.add(Response.loading(""));
-    this.index = index;
-    _playNavSound();
+    if (bottomNavIndex != index) {
+      _playNavSound();
+    }
+    this.bottomNavIndex = index;
+    _navWidgetController.sink.add(Response.completed(index));
+  }
+
+  updateTopNavState(int index) {
+    _navWidgetController.sink.add(Response.loading(""));
+    if (topNavIndex != index) {
+      _playNavSound();
+    }
+    this.topNavIndex = index;
     _navWidgetController.sink.add(Response.completed(index));
   }
 

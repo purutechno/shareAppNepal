@@ -39,8 +39,8 @@ class MyApp extends StatelessWidget {
               debugShowCheckedModeBanner: false,
               theme: ThemeData(
                 brightness: Brightness.light,
-                primaryColor: AppColors.petlyBlueColor,
-                scaffoldBackgroundColor: AppColors.petlyBlueColor,
+                primaryColor: AppColors.simpleBlueColor,
+                scaffoldBackgroundColor: AppColors.simpleBlueColor,
                 accentColor: AppColors.purpleLight,
               ),
               localizationsDelegates: [

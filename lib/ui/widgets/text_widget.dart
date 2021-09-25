@@ -8,7 +8,7 @@ enum CustomTextStyles {
   title,
   smallTitle,
   otherAccountsDesc,
-  newTitle
+  newTitle,
 }
 
 class TextWidget extends StatelessWidget {
@@ -21,6 +21,7 @@ class TextWidget extends StatelessWidget {
   FontStyle fontStyle;
   double letterSpacing;
   TextAlign textAlign;
+  int maxLines;
 
   TextWidget(
     this.text, {
@@ -32,6 +33,7 @@ class TextWidget extends StatelessWidget {
     this.textColor = AppColors.black,
     this.letterSpacing = 0.0,
     this.textAlign = TextAlign.start,
+    this.maxLines = 1,
   }) {
     getStyle();
   }
@@ -69,7 +71,7 @@ class TextWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Text(
       text,
-      maxLines: 50,
+      maxLines: this.maxLines,
       textAlign: this.textAlign,
       style: TextStyle(
         fontSize: this.fontSize,
