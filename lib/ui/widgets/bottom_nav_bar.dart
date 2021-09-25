@@ -38,6 +38,7 @@ class BottomNavBar extends StatelessWidget {
     }
 
     return Material(
+      elevation: 3,
       color: AppColors.white,
       child: Container(
           height: 65.h,

@@ -31,7 +31,7 @@ class TopNavigationBar extends StatelessWidget {
                   width: _totalWidth / 2,
                   alignment: Alignment.center,
                   child: TextWidget(
-                    AppLocalizations.of(context).translate("articles"),
+                    AppLocalizations.of(context).translate("english"),
                     style: CustomTextStyles.smallTitle,
                     textColor: _navigationStateProvider.topNavIndex == 0
                         ? _activeColor
@@ -46,7 +46,7 @@ class TopNavigationBar extends StatelessWidget {
                 alignment: Alignment.center,
                 width: _totalWidth / 2,
                 child: TextWidget(
-                  AppLocalizations.of(context).translate("profile"),
+                  AppLocalizations.of(context).translate("nepali"),
                   style: CustomTextStyles.smallTitle,
                   textColor: _navigationStateProvider.topNavIndex == 1
                       ? _activeColor
