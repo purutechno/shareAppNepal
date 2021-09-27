@@ -57,14 +57,14 @@ class Article {
 
   Map<String, dynamic> toJson() {
     final Map<String, dynamic> data = new Map<String, dynamic>();
-    data['image'] = imageUrls?.map((e) => e).toList();
-    data['categories'] = categories?.map((e) => e).toList();
-    data['ltp'] = ltp;
-    data['entry'] = entry;
-    data['firstTarget'] = firstTarget;
-    data['stepLoss'] = stepLoss;
-    data['conditions'] = conditions;
-    data['title'] = title;
+    data['image'] = imageUrls?.map((e) => e).toList() ?? [];
+    data['categories'] = categories?.map((e) => e).toList() ?? {};
+    data['ltp'] = ltp ?? "";
+    data['entry'] = entry ?? "";
+    data['firstTarget'] = firstTarget ?? "";
+    data['stepLoss'] = stepLoss ?? "";
+    data['conditions'] = conditions ?? "";
+    data['title'] = title ?? "";
     return data;
   }
 }

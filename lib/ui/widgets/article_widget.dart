@@ -29,7 +29,7 @@ class ArticleTiles extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     TextWidget(
-                      article?.title ?? "",
+                      article.title ?? "",
                       maxLines: 2,
                       style: CustomTextStyles.title,
                     ),
@@ -41,7 +41,7 @@ class ArticleTiles extends StatelessWidget {
                                 color: AppColors.buttonGradientStop,
                                 width: 2.sp)),
                         child: Center(
-                            child: TextWidget(article?.categories?.first ?? "",
+                            child: TextWidget(article.categories?.first ?? "",
                                 style: CustomTextStyles.normal,
                                 textColor: AppColors.black)))
                   ],
@@ -59,7 +59,7 @@ class ArticleTiles extends StatelessWidget {
                           style: BorderStyle.solid),
                       borderRadius: BorderRadius.circular(20.sp),
                       image: DecorationImage(
-                          image: NetworkImage(article?.imageUrls?.first ?? ""),
+                          image: NetworkImage(article.imageUrls?.first ?? ""),
                           fit: BoxFit.cover))),
             )
           ],
