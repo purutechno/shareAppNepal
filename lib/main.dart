@@ -3,8 +3,8 @@ import 'package:flutter/services.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:nepalstock/app_language/app_localizations.dart';
+import 'package:nepalstock/providers/app_theme_provider.dart';
 import 'package:nepalstock/providers/navigation_state_provider.dart';
-import 'package:nepalstock/utils/app_colors.dart';
 import 'package:nepalstock/utils/constants.dart';
 import 'package:nepalstock/functions/injection.dart';
 import 'package:nepalstock/providers/app_language.dart';
@@ -18,8 +18,21 @@ void main() {
   runApp(MyApp());
 }
 
-class MyApp extends StatelessWidget {
+class MyApp extends StatefulWidget {
   // This widget is the root of your application.
+  @override
+  State<MyApp> createState() => _MyAppState();
+}
+
+class _MyAppState extends State<MyApp> {
+  @override
+  void initState() {
+    super.initState();
+    currentTheme.addListener(() {
+      setState(() {});
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     SystemChrome.setPreferredOrientations([
@@ -37,12 +50,9 @@ class MyApp extends StatelessWidget {
           return MaterialApp(
               locale: model.appLocale,
               debugShowCheckedModeBanner: false,
-              theme: ThemeData(
-                brightness: Brightness.light,
-                primaryColor: AppColors.simpleBlueColor,
-                scaffoldBackgroundColor: AppColors.simpleBlueColor,
-                accentColor: AppColors.purpleLight,
-              ),
+              theme: ThemeProvider.lightTheme,
+              darkTheme: ThemeProvider.darkTheme,
+              themeMode: currentTheme.currentTheme,
               localizationsDelegates: [
                 AppLocalizations.delegate,
                 GlobalMaterialLocalizations.delegate,
