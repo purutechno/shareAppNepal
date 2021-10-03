@@ -41,5 +41,13 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+		<key>NSCameraUsageDescription</key>
+    	<string>This app requires access to Camera to upload an image</string>
+    	<key>NSMicrophoneUsageDescription</key>
+    	<string>This app requires access to mic to upload an image.</string>
+    	<key>NSPhotoLibraryUsageDescription</key>
+    	<string>This app requires access to the photo library to upload your profile photo.</string>
+    	<key>NSUserTrackingUsageDescription</key>
+    	<string>ShareNepal is using unique identifier and analytics to track your activity to improve the app.</string>
 </dict>
 </plist>

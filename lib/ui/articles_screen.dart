@@ -7,7 +7,7 @@ import 'package:nepalstock/utils/app_colors.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:provider/provider.dart';
 
-class ArticlesScreen extends StatelessWidget {
+class ArticlesTab extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final double _safeAreaHeight = MediaQuery.of(context).padding.top;

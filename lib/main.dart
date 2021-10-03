@@ -5,6 +5,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:nepalstock/app_language/app_localizations.dart';
 import 'package:nepalstock/providers/app_theme_provider.dart';
 import 'package:nepalstock/providers/navigation_state_provider.dart';
+import 'package:nepalstock/providers/profile_provider.dart';
 import 'package:nepalstock/utils/constants.dart';
 import 'package:nepalstock/functions/injection.dart';
 import 'package:nepalstock/providers/app_language.dart';
@@ -44,7 +45,8 @@ class _MyAppState extends State<MyApp> {
           ChangeNotifierProvider(create: (_) => AppLanguage()),
           ChangeNotifierProvider(create: (_) => ArticlesProvider()),
           ChangeNotifierProvider(create: (_) => PortfolioProvider()),
-          ChangeNotifierProvider(create: (_) => NavigationStateProvider())
+          ChangeNotifierProvider(create: (_) => NavigationStateProvider()),
+          ChangeNotifierProvider(create: (_) => ProfileProvider())
         ],
         child: Consumer<AppLanguage>(builder: (context, model, child) {
           return MaterialApp(
@@ -63,7 +65,8 @@ class _MyAppState extends State<MyApp> {
                   .map((e) => Locale(e, ''))
                   .toList(),
               home: ScreenUtilInit(
-                  designSize: Size(375, 780), builder: () => NavigationPage()));
+                  designSize: Size(375, 780),
+                  builder: () => NavigationContainer()));
         }));
   }
 }

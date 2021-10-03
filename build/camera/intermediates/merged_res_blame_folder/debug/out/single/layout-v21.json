@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/purushottampokharel/Documents/GitHub/shareAppNepal/build/camera/intermediates/merged_res/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/purushottampokharel/.gradle/caches/transforms-3/422312e82d72b609b38770f871ab2846/transformed/core-1.1.0/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/purushottampokharel/Documents/GitHub/shareAppNepal/build/camera/intermediates/merged_res/debug/layout-v21/notification_action.xml",
+        "source": "/Users/purushottampokharel/.gradle/caches/transforms-3/422312e82d72b609b38770f871ab2846/transformed/core-1.1.0/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/purushottampokharel/Documents/GitHub/shareAppNepal/build/camera/intermediates/merged_res/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/purushottampokharel/.gradle/caches/transforms-3/422312e82d72b609b38770f871ab2846/transformed/core-1.1.0/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/purushottampokharel/Documents/GitHub/shareAppNepal/build/camera/intermediates/merged_res/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/purushottampokharel/.gradle/caches/transforms-3/422312e82d72b609b38770f871ab2846/transformed/core-1.1.0/res/layout-v21/notification_action_tombstone.xml"
+    }
+]

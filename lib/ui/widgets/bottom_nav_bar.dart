@@ -12,51 +12,50 @@ class BottomNavBar extends StatelessWidget {
     final NavigationStateProvider _navigationStateProvider =
         Provider.of<NavigationStateProvider>(context, listen: false);
     final double _totalWidth = MediaQuery.of(context).size.width;
-    final Color _activeColor = AppColors.primaryColor;
+    final Color _activeColor = AppColors.cardsYellow;
     final Color _passiveColor = AppColors.black;
 
     Widget _iconWithTitle(IconData iconData, String title, int majorIndex) {
       return Container(
-        width: _totalWidth / 2,
-        child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
-          Icon(iconData,
-              color: _navigationStateProvider.bottomNavIndex == majorIndex
-                  ? _activeColor
-                  : _passiveColor,
-              size: _navigationStateProvider.bottomNavIndex == majorIndex
-                  ? 35.sp
-                  : 20.sp),
-          TextWidget(
-            title,
-            style: CustomTextStyles.smallTitle,
-            textColor: _navigationStateProvider.bottomNavIndex == majorIndex
+        height: 50.h,
+        width: (_totalWidth / 2) - 5.w,
+        child: Icon(iconData,
+            color: _navigationStateProvider.bottomNavIndex == majorIndex
                 ? _activeColor
                 : _passiveColor,
-          )
-        ]),
+            size: _navigationStateProvider.bottomNavIndex == majorIndex
+                ? 35.sp
+                : 20.sp),
       );
     }
 
     return Material(
-      elevation: 3,
+      elevation: 5,
       color: AppColors.white,
       child: Container(
-          height: 65.h,
+          height: 50.h,
           child:
               Row(mainAxisAlignment: MainAxisAlignment.spaceAround, children: [
             InkWell(
               onTap: () {
                 _navigationStateProvider.updateBottomNavState(0);
               },
-              child: _iconWithTitle(Icons.note_add_sharp,
-                  AppLocalizations.of(context).translate("articles"), 0),
+              child: Hero(
+                tag: "article",
+                child: _iconWithTitle(Icons.article,
+                    AppLocalizations.of(context).translate("articles"), 0),
+              ),
             ),
+            Container(width: 1.w, color: _activeColor),
             InkWell(
               onTap: () {
                 _navigationStateProvider.updateBottomNavState(1);
               },
-              child: _iconWithTitle(Icons.account_box,
-                  AppLocalizations.of(context).translate("profile"), 1),
+              child: Hero(
+                tag: "profile",
+                child: _iconWithTitle(Icons.person,
+                    AppLocalizations.of(context).translate("profile"), 1),
+              ),
             ),
           ])),
     );

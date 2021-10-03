@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/purushottampokharel/Documents/GitHub/shareAppNepal/build/image_picker/intermediates/merged_res/debug/layout/notification_template_part_time.xml",
+        "source": "/Users/purushottampokharel/.gradle/caches/transforms-3/422312e82d72b609b38770f871ab2846/transformed/core-1.1.0/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Users/purushottampokharel/Documents/GitHub/shareAppNepal/build/image_picker/intermediates/merged_res/debug/layout/custom_dialog.xml",
+        "source": "/Users/purushottampokharel/.gradle/caches/transforms-3/422312e82d72b609b38770f871ab2846/transformed/core-1.1.0/res/layout/custom_dialog.xml"
+    },
+    {
+        "merged": "/Users/purushottampokharel/Documents/GitHub/shareAppNepal/build/image_picker/intermediates/merged_res/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/purushottampokharel/.gradle/caches/transforms-3/422312e82d72b609b38770f871ab2846/transformed/core-1.1.0/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/purushottampokharel/Documents/GitHub/shareAppNepal/build/image_picker/intermediates/merged_res/debug/layout/notification_action.xml",
+        "source": "/Users/purushottampokharel/.gradle/caches/transforms-3/422312e82d72b609b38770f871ab2846/transformed/core-1.1.0/res/layout/notification_action.xml"
+    },
+    {
+        "merged": "/Users/purushottampokharel/Documents/GitHub/shareAppNepal/build/image_picker/intermediates/merged_res/debug/layout/notification_template_icon_group.xml",
+        "source": "/Users/purushottampokharel/.gradle/caches/transforms-3/422312e82d72b609b38770f871ab2846/transformed/core-1.1.0/res/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/purushottampokharel/Documents/GitHub/shareAppNepal/build/image_picker/intermediates/merged_res/debug/layout/notification_action_tombstone.xml",
+        "source": "/Users/purushottampokharel/.gradle/caches/transforms-3/422312e82d72b609b38770f871ab2846/transformed/core-1.1.0/res/layout/notification_action_tombstone.xml"
+    }
+]

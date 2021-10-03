@@ -51,12 +51,12 @@ class AppColors {
 
   static const ligthGreen = Color(0xFFE0F2F1);
   static const secondaryGreen = Color(0xFF009688);
-  static const lightgreenText = Color(0xFF01DFB7);
+  static const lightGreenText = Color(0xFF01DFB7);
 
   static const primaryGreen = Color(0xFF14D69C);
   static const simpleBlueColor = Color.fromRGBO(33, 150, 243, 1);
   static const primaryTurcoaz = Color(0xFF07D4F0);
-  static const unselectedblueColor = Color.fromRGBO(33, 150, 243, 0.3);
+  static const unSelectedBlueColor = Color.fromRGBO(33, 150, 243, 0.3);
   static const primaryPurple = Color(0xFF982CED);
   static const primaryBurgundy = Color(0xFFD322AC);
   static const cardsPink = Color.fromRGBO(237, 147, 184, 1);
