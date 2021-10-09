@@ -1,6 +1,11 @@
 import 'package:flutter/material.dart';
 
 class AppColors {
+  static const Color matteBlackDim = Color.fromRGBO(23, 23, 23,0.2);
+  static const Color matteBlackLight = Color.fromRGBO(23, 23, 23,0.5);
+  static const Color matteBlackGrim = Color.fromRGBO(23, 23, 23,0.7);
+  static const Color matteBlack = Color.fromRGBO(23, 23, 23,1);
+  static const Color goldYellow = Color.fromRGBO(255,199,1,1);
   static const Color primaryColor = Color(0xFF260082);
   static const Color primaryLightColor = Color(0xFF3300AF);
 

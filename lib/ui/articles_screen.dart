@@ -14,7 +14,7 @@ class ArticlesTab extends StatelessWidget {
     final NavigationStateProvider _navigationStateProvider =
         Provider.of<NavigationStateProvider>(context, listen: false);
     return Scaffold(
-        backgroundColor: AppColors.white,
+        backgroundColor: AppColors.matteBlackGrim,
         body: SafeArea(
             child: Stack(children: [
           SingleChildScrollView(
